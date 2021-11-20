@@ -1,0 +1,289 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+    <title>PogoSwap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+
+    <link rel="stylesheet" href="css/commonstyle.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<header class="header-wrap">
+    <div id="pageHeader" class="header">
+
+        <!--Mobile Menu-->
+        <div id="mobileMenuBg" class="mobileMenuBg"></div>
+        <div id="mobileMenu" class="mobile-menu">
+            <div class="mobile-menu-close-wrap">
+                <button id="mobileMenuClose" class="mobile-menu-close"></button>
+            </div>
+            <div class="mobile-menu-scroll">
+                <div class="mobile-menu-links">
+                    <a class="mobile-menu-link" href="https://pogoswap.io/#/pool">Liquidity pool</a>
+                    <a class="mobile-menu-link" href="#team-section">Foundation</a>
+                    <a class="mobile-menu-link" href="#tokenomics">Token</a>
+                </div>
+                <a href="https://pogoswap.io/#/swap" target="_blank" class="mobile-menu-button">
+                    <span>Launch dApp</span>
+                    <img src="img/icons/chevron_right.svg" loading="lazy" alt="Arrow right">
+                </a>
+            </div>
+            <div id="mobileMenuDrag" class="mobile-menu-drag"></div>
+        </div>
+
+        <!--Desktop Menu-->
+        <a class="header-logo" href="/">
+            <img class="logo" src="img/logo.svg" loading="lazy" alt="Logo">
+        </a>
+        <div class="menu-links">
+            <a class="menu-link" href="https://pogoswap.io/#/pool">Liquidity pool</a>
+            <a class="menu-link" href="#team-section">Foundation</a>
+            <a class="menu-link" href="#tokenomics">Token</a>
+        </div>
+        <div class="header-last-col">
+            <a href="https://pogoswap.io/#/swap" class="button color-button">
+                <span class="text-black">Launch dApp</span>
+                <img src="img/icons/chevron_right.svg" class="visible-white-header" loading="lazy" alt="Arrow right">
+                <img src="img/icons/chevron_right_black.svg" class="visible-header" loading="lazy" alt="Arrow right">
+            </a>
+        </div>
+        <img id="menuHamburger" class="hamburger" src="img/icons/hamburger.svg" loading="lazy" alt="Hamburger image">
+    </div>
+</header>
+
+
+<main>
+    <div class="page-content">
+        <div class="start-screen">
+            <div class="start-screen-content">
+                <div>
+                    <h1 class="main-title mb-20">Pogo Swap</h1>
+                    <p class="text">The POGOSWAP Network unites decentralized protocols whose synergy enables the most
+                        complete and lucrative, and protected operations in the DeFi space.</p>
+                    <div class="buttons">
+                        <a href="https://pogoswap.io/#/swap" class="button color-button big-button">
+                            <span>Launch dApp</span>
+                            <img src="img/icons/chevron_right.svg" loading="lazy" alt="Arrow right">
+                        </a>
+                    </div>
+                </div>
+                <picture>
+                    <source type="image/webp" srcset="img/network/mac.webp"/>
+                    <img class="start-screen-img" src="img/network/mac.png" alt="About company">
+                </picture>
+            </div>
+            <p id="scroll-down" class="text scroll-down">
+                <span>Scroll Down For More</span>
+                <img src="img/icons/arrow.svg" loading="lazy" alt="Scroll Down For More">
+            </p>
+        </div>
+
+        <div class="block block-0">
+            <div>
+                <h2 class="block-title">
+                    Why Pogoswap?
+                </h2>
+                <p class="text mb-50">With the new interests of the world banking leader in the digitalization of fiat
+                    currency it is clear that Pogoswap will be the most valuable tool in the near future for all the
+                    currency space. With its advanced protocol and IDO incubator portal, it becomes a major player for
+                    the entire DeFi field but also the digital fiat soon to be adopted and used on the blockchain
+                    network by central bank and governments.</p>
+            </div>
+            <img class="block-img" src="https://via.placeholder.com/500x500" loading="lazy"
+                 alt="1inch Aggregation Protocol">
+        </div>
+
+        <div class="block block-1">
+            <div>
+                <h2 class="block-title">
+                    POGOSWAP V1
+                </h2>
+                <p class="text mb-50">POGOSWAP V1 is a noncustodial automated market maker implemented for the Ethereum
+                    Virtual Machine. In comparison to earlier versions of the protocol, POGOSWAP v1 provides increased
+                    capital efficiency and finetuned control to liquidity providers, improves the accuracy and
+                    convenience of the price oracle, and has a more flexible fee structure.</p>
+            </div>
+            <img class="block-img" src="https://via.placeholder.com/500x500" loading="lazy"
+                 alt="1inch Aggregation Protocol">
+        </div>
+
+        <div class="block block-0" id="tokenomics">
+            <div>
+                <h2 class="block-title">
+                    REVENUE TOKEN MODEL
+                </h2>
+                <p class="text mb-50">Users who own POGO will have the opportunity to participate in the staking pool
+                    which will give a determined percentage to each participant who has provided liquidity on a pair of
+                    their choice.</p>
+                <a class="button transparent-button" href="https://pogoswap.io/pogoswap.pdf">
+                    <span>Download Whitepaper</span>
+                    <img src="img/icons/chevron_right.svg" loading="lazy" alt="Arrow right">
+                </a>
+            </div>
+            <img class="block-img" src="https://via.placeholder.com/500x500" loading="lazy"
+                 alt="1inch Aggregation Protocol">
+        </div>
+
+
+        <div class="total-values">
+            <div class="total-value">
+                <span class="big-number" id="TotalVolume">POGO</span>
+                <span class="text">Token Name</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="TotalUsers">10M</span>
+                <span class="text">Total supply</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="TotalLiquidity">2.2M</span>
+                <span class="text">Burned Coins</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="TotalTrades">6M</span>
+                <span class="text">For Sale</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="AccessLiquiditySources">150K</span>
+                <span class="text">Airdrop amount</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="AggregationShare">150K</span>
+                <span class="text">Liquidity Pool</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="NumberOfProtocols">1.5M</span>
+                <span class="text">Team</span>
+            </div>
+            <div class="total-value">
+                <span class="big-number" id="coffee">400+</span>
+                <span class="text">Cups of coffee</span>
+            </div>
+            <img class="total-values-wrap" src="img/total-values-border.svg" alt="Total values border" loading="lazy">
+        </div>
+
+
+        <div class="block block-0" id="team-section">
+            <div>
+                <h2 class="block-title">
+                    TEAM Message
+                </h2>
+                <p class="text mb-50">We founded POGOSWAP after seeing a pressing need in the market, firsthand. From
+                    the very beginning, back when the company was founded in April 2021, the idea behind POGOSWAP has
+                    been to establish a platform that customers can fully trust, and which as the potential to become a
+                    leading crypto exchange across the world, powering the future of crypto finance.</p>
+
+            </div>
+            <img class="block-img" src="https://via.placeholder.com/500x500" loading="lazy" alt="">
+        </div>
+
+        <div class="pre-footer">
+            <div class="mission">
+                <div>
+                    <h2 class="block-title">
+                        Mission
+                    </h2>
+                    <p class="text mb-50">The mission of the Pogoswap Foundation is to foster growth and expansion of
+                        the
+                        pogoswap network and incentivize contributions through the development of the platform and the
+                        optimization of new projects and ideas in the decentralized finance market</p>
+
+                </div>
+            </div>
+
+            <div class="mission">
+                <div>
+                    <h2 class="block-title">
+                        Community
+                    </h2>
+                    <p class="text mb-50">Engaging adopters and maximizing the network's
+                        decentralization through growing stake owners
+                        numbers and their participation in IDO’s project.</p>
+
+                </div>
+            </div>
+            <div class="mission">
+                <div>
+                    <h2 class="block-title">
+                        IDO
+                    </h2>
+                    <p class="text mb-50">Pogoswap also aims to offer a page reserved for the IDO to
+                        start a new blockchain crypto project.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<img class="top-gradient" src="img/network/top-gradient.svg" loading="lazy" alt="top-gradient.svg"/>
+<img class="top-gradient top-gradient-mobile" src="img/network/top-gradient-mobile.svg" loading="lazy"
+     alt="top-gradient-mobile.svg"/>
+
+<img class="bottom-gradient" src="img/network/footer-gradient.svg" loading="lazy" alt="footer-gradient.svg"/>
+<img class="bottom-gradient bottom-gradient-mobile" src="img/network/footer-gradient-mobile.svg" loading="lazy"
+     alt="footer-gradient-mobile.svg"/>
+
+<div class="line line-first"></div>
+
+<div class="page-content">
+    <div class="footer">
+        <div class="footer-links-block">
+            <div>
+                <p class="footer-title mb-20">Protocols</p>
+                <div class="footer-column">
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-links-block">
+            <div>
+                <p class="footer-title mb-20">Protocols</p>
+                <div class="footer-column">
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                    <a href="#" class="footer-link text">Liquidity Protocol</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="footer-column">
+                <p class="text">Get the latest news and updates</p>
+                <div class="footer-social-networks">
+                    <a id="footer-icon_twitter" href="https://twitter.com/" target="_blank">
+                        <svg width="44" height="45">
+                            <use xlink:href="img/icons/twitter.svg#twitter"></use>
+                        </svg>
+                    </a>
+                    <a id="footer-icon_discord" href="https://discord.com/" target="_blank">
+                        <svg width="44" height="45">
+                            <use xlink:href="img/icons/discord.svg#discord"></use>
+                        </svg>
+                    </a>
+                    <a id="footer-icon_telegram" href="https://twitter.com" target="_blank">
+                        <svg width="44" height="45">
+                            <use xlink:href="img/icons/telegram.svg#telegram"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line line-second"></div>
+    <div class="footer footer-last-row">
+        <span class="text footer-footnotes">&copy; 2021 PogoSwap, All Rights Reserved.</span>
+    </div>
+</div>
+
+<script src="js/commonjs.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
