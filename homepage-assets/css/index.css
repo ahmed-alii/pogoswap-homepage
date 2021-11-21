@@ -102,6 +102,17 @@ html{
     background: #00AAE8;
 }
 
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+    display: block;
+}
+
+.header{
+    margin-top: 16px;
+}
+
 @media (min-height: 1100px) {
     .start-screen {
         max-height: 900px;
@@ -194,6 +205,13 @@ html{
     .footer-links-block{
         display: block;
         margin-bottom: 60px;
+    }
+
+    .mobile-only{
+        display: block;
+    }
+    .desktop-only{
+        display: none;
     }
 
 }

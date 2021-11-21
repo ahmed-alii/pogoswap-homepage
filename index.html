@@ -4,6 +4,7 @@
     <title>PogoSwap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
 
+    <link rel="icon" href="homepage-assets/img/favicon.svg">
     <link rel="stylesheet" href="homepage-assets/css/commonstyle.css">
     <link rel="stylesheet" href="homepage-assets/css/index.css">
 
@@ -40,6 +41,22 @@
             <a class="menu-link" href="https://pogoswap.io/#/pool">Liquidity pool</a>
             <a class="menu-link" href="#team-section">Foundation</a>
             <a class="menu-link" href="#tokenomics">Token</a>
+
+            <div class="menu-link main-menu-link">
+                        <span class="main-menu-title">
+                            Protocols
+                            <svg width="25" height="25">
+                                <use xlink:href="homepage-assets/icons/chevron_down.svg#chevron_down"></use>
+                            </svg>
+                        </span>
+
+                <div class="sub-links-wrap" style="display: none;">
+                    <a class="menu-sub-link" href="/aggregation-protocol/">Aggregation protocol</a>
+                    <a class="menu-sub-link" href="/liquidity-protocol/">Liquidity protocol</a>
+                    <a class="menu-sub-link" href="/limit-order-protocol/">Limit order protocol</a>
+                </div>
+            </div>
+
         </div>
         <div class="header-last-col">
             <a href="https://pogoswap.io/#/swap" class="button color-button">
@@ -58,10 +75,17 @@
         <div class="start-screen">
             <div class="start-screen-content">
                 <div>
-                    <h1 class="main-title mb-20">Pogo Swap</h1>
+                    <div class="buttons mobile-only">
+                        <a href="https://pogoswap.io/#/swap" class="button color-button big-button">
+                            <span>Launch dApp</span>
+                            <img src="homepage-assets/img/icons/chevron_right.svg" loading="lazy" alt="Arrow right">
+                        </a>
+                    </div>
+
+                    <h1 class="main-title mb-20">Pogo<span style="color: #04BCF4;">Swap</span></h1>
                     <p class="text">The POGOSWAP Network unites decentralized protocols whose synergy enables the most
                         complete and lucrative, and protected operations in the DeFi space.</p>
-                    <div class="buttons">
+                    <div class="buttons desktop-only">
                         <a href="https://pogoswap.io/#/swap" class="button color-button big-button">
                             <span>Launch dApp</span>
                             <img src="homepage-assets/img/icons/chevron_right.svg" loading="lazy" alt="Arrow right">
@@ -69,7 +93,7 @@
                     </div>
                 </div>
                 <picture>
-                    <img class="start-screen-img" src="homepage-assets/img/pogo-candles.png" alt="About company">
+                    <img class="start-screen-img" src="homepage-assets/img/top-graphic-no-logo.png" alt="About company">
                 </picture>
             </div>
             <p id="scroll-down" class="text scroll-down">
@@ -273,7 +297,7 @@
     </div>
     <div class="line line-second"></div>
     <div class="footer footer-last-row">
-        <span class="text footer-footnotes">&copy; 2021 PogoSwap, All Rights Reserved.</span>
+        <span class="text footer-footnotes">&copy; 2021 PogoSwap, All Rights Reserved. | Token Labs LLC</span>
     </div>
 </div>
 
