@@ -8,3 +8,10 @@
         } else n.style.opacity = "1"
     }))
 })();
+
+const nn = document.getElementsByClassName("dropdown-link");
+for (let tt of nn) {
+    tt.removeEventListener('click', function (){
+
+    });
+}

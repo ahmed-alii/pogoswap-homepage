@@ -113,6 +113,9 @@ html{
     margin-top: 16px;
 }
 
+.menu-sub-link svg{
+    margin-right: 8px;
+}
 @media (min-height: 1100px) {
     .start-screen {
         max-height: 900px;

@@ -4724,7 +4724,7 @@
                 i = document.getElementById("mobileMenu"), a = document.getElementById("mobileMenuBg"),
                 s = window.document.querySelectorAll(".main-mobile-menu-link"), l = "open-header";
 
-            const nn = document.getElementsByClassName("mobile-menu-link");
+            const nn = document.querySelectorAll(".mobile-menu-link:not(.dropdown-link)")
             for (let tt of nn) {
                 tt.addEventListener("click", (() => {
                     e.classList.toggle(l);
@@ -4734,7 +4734,7 @@
                     })), tt.overflow = "hidden" === tt.overflow ? "auto" : "hidden", n.display = "block" === n.display ? "none" : "block"
                 }))
             }
-            [r, n, nn].forEach((t => {
+            [r, n].forEach((t => {
                 t.addEventListener("click", (() => {
                     e.classList.toggle(l);
                     const t = document.body.style, n = a.style;
